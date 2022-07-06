@@ -31,11 +31,6 @@
 </style>
 
 <body style="margin : 0px; overflow: hidden;">
-  <!-- minimal loader shown until image descriptors are loaded. Loading may take a while according to the device computational power -->
-  <div class="arjs-loader">
-    <div>Loading, please wait...</div>
-  </div>
-
   <!-- a-frame scene -->
   <a-scene
     vr-mode-ui="enabled: false;"
@@ -65,11 +60,4 @@
     <!-- static camera that moves according to the device movemenents -->
     <a-entity camera></a-entity>
   </a-scene>
-
-<script>
-window.addEventListener("arjs-nft-loaded", (event) => {
-  // Hide loading overlay
-});
-</script>
-
 </body>
