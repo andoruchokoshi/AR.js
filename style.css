@@ -1,5 +1,5 @@
 header {
-	background-color: #333;
+	background-color: #171717;
 	color: #fff;
 	padding: 5px;
 	display: flex;
@@ -8,8 +8,8 @@ header {
 }
 
 header img {
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 }
 
 header ul {
@@ -42,14 +42,66 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 	padding: 0;
+	background-color: #202020;
 }
 
 footer {
-	position: fixed;
 	bottom: 0;
 	width: 100%;
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
+	background-color: #171717;
+	color: #ffffff;
+}
+
+.footer-column {
+	margin-top: 25px;
+	flex-basis: 25%;
+}
+
+.back-to-top {
+	text-align: center;
+}
+
+.back-to-top a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.footer-links {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-links li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.footer-links li:last-child {
+	margin-right: 0;
+}
+
+.footer-links a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.bg-primary {
+	background-color: #7c37f4;
+	width: 100%;
+	color: #171717;
 	text-align: left;
+}
+
+.bg-primary_down {
+	background-color: #7c37f4;
+	width: 100%;
+	color: #171717;
+	text-align: center;
+}
+
+.column {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
