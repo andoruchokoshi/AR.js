@@ -66,6 +66,10 @@ footer {
 	text-decoration: none;
 }
 
+.back-to-top a:hover {
+	text-decoration: underline;
+}
+
 .footer-links {
 	list-style: none;
 	padding: 0;
@@ -75,6 +79,10 @@ footer {
 .footer-links li {
 	display: inline-block;
 	margin-right: 20px;
+}
+
+.footer-links li:hover {
+	text-decoration: underline;
 }
 
 .footer-links li:last-child {
