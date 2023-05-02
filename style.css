@@ -4,6 +4,11 @@ header {
 	padding: 20px;
 }
 
+header img {
+	width: 80px;
+	height: 80px;
+}
+
 header h1 {
 	margin: 0;
 }
@@ -17,10 +22,6 @@ header ul {
 
 header ul li {
 	margin-right: 20px;
-}
-
-header ul li:last-child {
-	margin-right: 0;
 }
 
 header ul li a {
@@ -37,8 +38,11 @@ body {
 }
 
 footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 	background-color: #333;
 	color: #fff;
-	padding: 10px;
-	text-align: center;
+	padding: 20px;
+	text-align: left;
 }
