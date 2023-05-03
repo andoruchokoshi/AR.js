@@ -45,6 +45,62 @@ body {
 	background-color: #202020;
 }
 
+.button-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+	gap: 10px;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 250px;
+	height: 30px;
+	padding: 10px 20px;
+	margin-right: 20px;
+	background-color: #ffffff00;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #2fffa4;
+	font-size: 18px;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+	background-color: #333;
+}
+
+.button-icon {
+	width: 20px;
+	height: 20px;
+}
+
+.text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0;
+}
+
+.text-container h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.text-container p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	color: #2fffa4;
+}
+
 footer {
 	bottom: 0;
 	width: 100%;
@@ -95,14 +151,14 @@ footer {
 }
 
 .bg-primary {
-	background-color: #7c37f4;
+	background-color: #2fffa4;
 	width: 100%;
 	color: #171717;
 	text-align: left;
 }
 
 .bg-primary_down {
-	background-color: #7c37f4;
+	background-color: #2fffa4;
 	width: 100%;
 	color: #171717;
 	text-align: center;
