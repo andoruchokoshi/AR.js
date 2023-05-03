@@ -8,18 +8,25 @@
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet" href="style.css" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+	<link rel="stylesheet" href="style.css" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap">
 </head>
 <body>
 	<header>
 		<img src="resources/header_logo.svg" alt="logo">
-		<nav>
-			<ul>
-				<li><a href="#">1 Elements</a></li>
-				<li><a href="#">2 Elements</a></li>
-				<li><a href="#">3 Elements</a></li>
-			</ul>
-		</nav>
+		<div class="header-info">
+			<nav>
+				<ul>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+				</ul>
+			</nav>
+			<span class="separator"></span>
+			<div class="language-switcher">
+				<a href="#" class="active"><span>ru</span></a>
+				<a href="#"><span>en</span></a>
+			</div>
+		</div>
 	</header>
 	<main>
 		<!-- -->
@@ -44,6 +51,7 @@
 			<div class="footer-column">
 			<div class="back-to-top">
 			  <a href="#">Back to top</a>
+			  <img src="resources/back_to_top_arrow.svg" alt="back-to-top_arrow">
 			</div>
 		  </div>
 		  <div class="footer-column">
