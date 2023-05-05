@@ -84,6 +84,8 @@ header {
 	font-size: 18px;
 	font-family: Gilroy;
 	font-weight: 700;
+	scroll-behavior: auto;
+	text-decoration: none;
 }
 .language-switcher {
 	display: flex;
@@ -94,8 +96,8 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 	background-color: #333;
 	border-radius: 50%;
 	color: #fff;
