@@ -186,6 +186,7 @@ footer {
 .connect .button {
 	display: flex;
 	justify-content: space-between;
+	gap: 10px;
 }
 .connect .button a {
 	background-color: #303030;
