@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap');
 header {
 	display: flex;
 	justify-content: space-between;
@@ -6,7 +8,7 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
-	font-family: Gilroy;
+	font-family: Questrial;
 	font-weight: 700;
 }
 .logo img {
@@ -82,9 +84,9 @@ header {
 	border-radius: 10px;
 	border: none;
 	font-size: 18px;
-	font-family: Gilroy;
+	font-family: Questrial;
 	font-weight: 700;
-	scroll-behavior: auto;
+	scroll-behavior: smooth;
 	text-decoration: none;
 }
 .language-switcher {
@@ -125,12 +127,12 @@ main {
 .text-info h1 {
 	color: #fff;
 	font-size: 40px;
-	font-family: Gilroy;
+	font-family: Questrial;
 }
 .text-info h2 {
 	color: #fff;
 	font-size: 38px;
-	font-family: Gilroy;
+	font-family: Questrial;
 	font-weight: 300;
 	margin-top: -30px;
 }
@@ -143,7 +145,7 @@ main {
 .text-info h4 {
 	color: #2fffa4;
 	font-size: 110px;
-	font-family: Gilroy;
+	font-family: Questrial;
 	margin-top: -30px;
 }
 .text-info span {
@@ -163,7 +165,7 @@ footer {
 .connect h1 {
 	color: #303030;
 	font-size: 25px;
-	font-family: Gilroy;
+	font-family: Questrial;
 	font-weight: 500;
 	margin-bottom: 30px;
 	margin-top: -15px;
@@ -171,7 +173,7 @@ footer {
 .connect h2 {
 	color: #303030;
 	font-size: 25px;
-	font-family: Gilroy;
+	font-family: Questrial;
 	font-weight: 500;
 	margin-bottom: 30px;
 }
@@ -179,7 +181,7 @@ footer {
 	color: #303030;
 	text-decoration: underline;
 	font-size: 25px;
-	font-family: Gilroy;
+	font-family: Questrial;
 	font-weight: 500;
 }
 .connect .social a {
@@ -198,7 +200,7 @@ footer {
 	border-radius: 30px;
 	color: #2fffa4;
 	font-size: 25px;
-	font-family: Gilroy;
+	font-family: Questrial;
 	text-decoration: none;
 	transition: backgroud-color 0.2s ease;
 }
