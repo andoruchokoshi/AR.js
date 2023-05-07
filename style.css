@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap');
 
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: #202020;
+}
 header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px;
-	top: 0;
-	left: 0;
-	right: 0;
 	font-family: Poppins;
 	font-weight: 600;
 }
@@ -83,7 +85,7 @@ header {
 	padding: 10px 20px;
 	border-radius: 10px;
 	border: none;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: Poppins;
 	font-weight: 600;
 	scroll-behavior: smooth;
@@ -98,8 +100,8 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 50px;
-	height: 50px;
+	width: 45px;
+	height: 45px;
 	background-color: #333;
 	border-radius: 50%;
 	color: #fff;
@@ -110,53 +112,54 @@ header {
 	background-color: #2fffa4;
 	color: #333;
 }
-body {
-	background-color: #202020;
-}
 main {
+	margin-top: 115px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-	height: 100vh;
+	height: 75vh;
 	padding: 0 20px;
 }
 .text-info {
-	margin-bottom: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 20px;
+	gap: 20px;
 }
 .text-info h1 {
+	display: flex;
 	color: #fff;
-	font-size: 41px;
+	font-size: calc(24px + 16 * ((100vw - 320px) / (1280 - 320)));
 	font-family: Poppins;
 	font-weight: 500;
-	margin-top: 80px;
 }
 .text-info h2 {
+	display: flex;
 	color: #fff;
-	font-size: 38px;
+	font-size: calc(21px + 16 * ((100vw - 320px) / (1280 - 320)));
 	font-family: Poppins;
 	font-weight: 300;
-	margin-top: -40px;
 }
 .text-info h3 {
+	display: flex;
 	color: #2fffa4;
-	font-size: 30px;
+	font-size: 20px;
 	font-family: Poppins;
 	font-weight: 300;
-	margin-top: 100px;
 }
 .text-info h4 {
+	display: flex;
 	color: #2fffa4;
-	font-size: 110px;
+	font-size: 8vw;
 	font-family: Poppins;
-	margin-top: -40px;
 }
 .text-info span {
 	color: #fff;
 }
 .connect {
-	margin: 0 auto;
-	max-width: 1000px;
+	margin: 0 10%;
 	background-color: #2fffa4;
 	border-radius: 30px;
 	padding: 40px;
@@ -177,25 +180,37 @@ main {
 	font-weight: 500;
 	margin-bottom: 30px;
 }
+.connect mail {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .connect a.email {
 	color: #303030;
 	text-decoration: underline;
 	font-size: 25px;
 	font-family: Poppins;
 	font-weight: 500;
+	word-wrap: break-word;
+}
+.connect .social {
+	display: flex;
+	align-items: row;
+	flex-wrap: wrap;
+	flex-grow: 2;
 }
 .connect .social a {
-	display: inline-block;
-	margin-right: 20px;
+	flex-grow: 2;
 }
 .connect .button {
 	display: flex;
-	justify-content: space-between;
-	gap: 10px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 20px;
 }
 .connect .button a {
 	background-color: #303030;
-	display: inline-block;
+	display: flex;
 	padding: 15px 30px;
 	border-radius: 50px;
 	color: #2fffa4;
@@ -209,10 +224,11 @@ main {
 }
 .connect .link {
 	display: flex;
+	justify-content: space-around;
 	align-items: center;
+	gap: 40px;
 }
 .connect img {
-	margin-left: 10px;
 	width: 50px;
 }
 .button img {
@@ -222,30 +238,30 @@ main {
 	margin-top: 40px;
 	margin-bottom: -10px;
 	display: inline-block;
-	justify-content: space-between;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 footer .fbar {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
+	flex-wrap: wrap;
 	padding: 20px;
-	margin-top: 10px;
 	text-decoration: none;
 }
-footer p {
+.fbar p {
+	display: flex;
+	justify-content: center;
+	word-wrap: break-word;
 	color: #fff;
 	font-size: 20px;
 	font-family: Poppins;
-	margin-left: 5%;
 }
 footer .project-link a {
 	color: #fff;
 	text-decoration: underline;
 	font-size: 20px;
 	font-family: Poppins;
-}
-footer .back-to-top {
-	margin-right: 5%;
 }
 footer .back-to-top a {
 	color: #fff;
