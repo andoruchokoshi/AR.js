@@ -179,13 +179,16 @@ main .c-info {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 	font-family: Source Code Pro;
 	font-size: 0.6em;
+	gap: 1em;
 }
 main .c-button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 	background-color: #202020;
 	color: #2fffa4;
 	padding: 10px 20px;
@@ -203,19 +206,16 @@ main .c-info .c-button img {
 }
 main .project {
 	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
 	gap: 1em;
 }
 main .c-preview {
+	background-color: #202020;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
-	flex-wrap: ;
-	height: 23em;
-	width: 23em;
+	height: 25em;
+	width: 100%;
 	border-radius: 2em;
-	background-color: #202020;
+	overflow: hidden;
 }
 main .c-preview .description {
 	margin: 1em 2em;
@@ -238,7 +238,7 @@ main .c-preview img {
 	width: 100%;
 	height: 75%;
 	object-fit: cover;
-	border-radius: 1em 1em 0 0;
+	border-radius: 2em 2em 2em 2em;
 }
 .connect {
 	margin: 0 10%;
@@ -336,6 +336,7 @@ footer .fbar {
 	display: flex;
 	justify-content: center;
 	word-wrap: break-word;
+	text-align: center;
 	color: #fff;
 	font-size: 1em;
 	font-family: Poppins;
@@ -353,4 +354,27 @@ footer .back-to-top a {
 }
 footer .back-to-top img {
 	width: 1em;
+}
+@media screen and (max-width: 800px) {
+	main {
+		margin: 0 3%;
+	}
+	main .c-info {
+		display: flex;
+		justify-content: center;
+	}
+	main .project {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1em;
+	}
+	footer .connect {
+		margin: 0 3%;
+	}
+	/*
+	footer .fbar p {
+		display: flex;
+		justify-content: center;
+	}
+	*/
 }
