@@ -12,19 +12,20 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
+	padding: 1.5em 1.5em 0 1.5em;
 	font-family: Poppins;
 	font-weight: 600;
 }
 .logo img {
-	width: 70px;
-	height: 70px;
+	width: 5em;
+	height: 5em;
 }
 .menu {
 	display: flex;
 	align-items: center;
 	gap: 10px;
 }
+/*
 .checkbox-green {
 	display: flex;
 	align-items: center;
@@ -79,7 +80,8 @@ header {
 	left: -10px;
 	width: 140px;
 }
-.button-connect {
+*/
+header .button a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -94,11 +96,11 @@ header {
 	scroll-behavior: smooth;
 	text-decoration: none;
 }
-/*
-header .button-connect a:hover {
+header .button a:hover {
 	background-color: #303030;
+	color: #2fffa4;
 }
-*/
+/*
 .lang-switcher {
 	display: flex;
 	align-items: center;
@@ -120,6 +122,7 @@ header .button-connect a:hover {
 	background-color: #2fffa4;
 	color: #333;
 }
+*/
 main {
 	margin: 0 10%;
 	/*
@@ -204,6 +207,9 @@ main .c-button {
 	font-weight: 300;
 	text-decoration: none;
 }
+main .c-button:hover {
+	background-color: #101010;
+}
 main .c-info .c-button img {
 	margin-left: 0.5em;
 	width: 30px;
@@ -254,7 +260,7 @@ main .c-preview img {
 }
 .connect h1 {
 	color: #303030;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-family: Poppins;
 	font-weight: 500;
 	margin-bottom: 30px;
@@ -262,7 +268,7 @@ main .c-preview img {
 }
 .connect h2 {
 	color: #303030;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-family: Poppins;
 	font-weight: 500;
 	margin-bottom: 30px;
@@ -275,7 +281,7 @@ main .c-preview img {
 .connect a.email {
 	color: #303030;
 	text-decoration: underline;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-family: Poppins;
 	font-weight: 500;
 	word-wrap: break-word;
@@ -301,7 +307,7 @@ main .c-preview img {
 	padding: 15px 30px;
 	border-radius: 50px;
 	color: #2fffa4;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-family: Poppins;
 	text-decoration: none;
 	transition: backgroud-color 0.2s ease;
@@ -323,8 +329,7 @@ main .c-preview img {
 	width: 20px;
 }
 .link {
-	margin-top: 40px;
-	margin-bottom: -10px;
+	margin-top: 2em;
 	display: inline-block;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -334,7 +339,7 @@ footer .fbar {
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	padding: 20px;
+	padding: 1em;
 	text-decoration: none;
 }
 .fbar p {
