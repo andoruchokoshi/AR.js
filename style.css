@@ -295,6 +295,9 @@ main .c-preview img {
 .connect .social a {
 	flex-grow: 2;
 }
+.connect .social img  {
+	width: 50px;
+}
 .connect .button {
 	display: flex;
 	justify-content: space-around;
@@ -321,9 +324,6 @@ main .c-preview img {
 	align-items: center;
 	gap: 40px;
 }
-.connect img {
-	width: 50px;
-}
 .button img {
 	margin-left: 1em;
 	width: 20px;
@@ -346,7 +346,6 @@ footer .fbar {
 	display: flex;
 	justify-content: center;
 	word-wrap: break-word;
-	text-align: center;
 	color: #fff;
 	font-size: 1em;
 	font-family: Poppins;
@@ -381,10 +380,7 @@ footer .back-to-top img {
 	footer .connect {
 		margin: 0 3%;
 	}
-	/*
 	footer .fbar p {
-		display: flex;
-		justify-content: center;
+		text-align: center;
 	}
-	*/
 }
