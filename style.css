@@ -251,14 +251,14 @@ main .c-preview img {
 	object-fit: cover;
 	border-radius: 2em 2em 2em 2em;
 }
-.connect {
+footer .connect {
 	margin: 0 10%;
 	background-color: #2fffa4;
 	border-radius: 2.5em;
 	padding: 2.8em;
 	text-align: center;
 }
-.connect h1 {
+footer .connect h1 {
 	color: #303030;
 	font-size: 1.1em;
 	font-family: Poppins;
@@ -266,19 +266,19 @@ main .c-preview img {
 	margin-bottom: 30px;
 	margin-top: -15px;
 }
-.connect h2 {
+footer .connect h2 {
 	color: #303030;
 	font-size: 1.1em;
 	font-family: Poppins;
 	font-weight: 500;
 	margin-bottom: 30px;
 }
-.connect mail {
+footer .connect mail {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.connect a.email {
+footer .connect a.email {
 	color: #303030;
 	text-decoration: underline;
 	font-size: 1.1em;
@@ -286,25 +286,25 @@ main .c-preview img {
 	font-weight: 500;
 	word-wrap: break-word;
 }
-.connect .social {
+footer .connect .social {
 	display: flex;
 	align-items: row;
 	flex-wrap: wrap;
 	flex-grow: 2;
 }
-.connect .social a {
+footer .connect .social a {
 	flex-grow: 2;
 }
-.connect .social img  {
+footer .connect .social img  {
 	width: 50px;
 }
-.connect .button {
+footer .connect .button {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	gap: 20px;
 }
-.connect .button a {
+footer .connect .button a {
 	background-color: #303030;
 	display: flex;
 	padding: 15px 30px;
@@ -315,20 +315,20 @@ main .c-preview img {
 	text-decoration: none;
 	transition: backgroud-color 0.2s ease;
 }
-.connect .button a:hover {
+footer .connect .button a:hover {
 	background-color: #202020;
 }
-.connect .link {
+footer .connect .link {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	gap: 40px;
 }
-.button img {
+footer .button img {
 	margin-left: 1em;
 	width: 20px;
 }
-.link {
+footer .link {
 	margin-top: 2em;
 	display: inline-block;
 	justify-content: space-around;
@@ -342,7 +342,7 @@ footer .fbar {
 	padding: 1em;
 	text-decoration: none;
 }
-.fbar p {
+footer .fbar p {
 	display: flex;
 	justify-content: center;
 	word-wrap: break-word;
