@@ -48,7 +48,7 @@ imgElem.src = randomImage;
 const filename = randomImage.split("/").pop();
 const lastDotIndex = filename.lastIndexOf(".");
 const lastSlashIndex = filename.lastIndexOf("\\");
-const title = lastSlashIndex === -1 ? filename.substring(0, lastDotIndex) : filename.substring(lastSlashIndex + 1, lastDotIndex).replace(/\([^()]*\)/, '').trim();
+const title = decodeURIComponent(filename.substring(lastSlashIndex + 1, lastDotIndex).replace(/\([^()]*\)/, '').trim());
 const description = /\(([^)]+)\)/.exec(filename)[1];
 titleElem.textContent = title;
 descElem.textContent = description;
