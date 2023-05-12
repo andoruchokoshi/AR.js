@@ -247,10 +247,8 @@ main .c-preview p {
 	margin-top: -0.5em;
 }
 main .c-preview img {
-	display: flex;
-	align-items: center;
-	justify-content: space-;
-	width: 100%;
+	padding: 1%;
+	width: 98%;
 	height: 77%;
 	object-fit: cover;
 	border-radius: 2em 2em 2em 2em;
@@ -374,7 +372,7 @@ footer .back-to-top img {
 	}
 	main .c-info {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 	}
 	main .project {
 		display: flex;
@@ -386,5 +384,10 @@ footer .back-to-top img {
 	}
 	footer .fbar p {
 		text-align: center;
+	}
+}
+@media screen and (max-width: 600px) {
+	main .c-info {
+		flex-direction: column;
 	}
 }
