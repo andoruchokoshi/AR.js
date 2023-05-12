@@ -80,6 +80,7 @@ main .notice {
 main .notice a {
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	font-family: Poppins;
 	font-size: 1.1em;
 	color: #fff;
