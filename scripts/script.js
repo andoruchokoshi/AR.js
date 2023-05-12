@@ -7,26 +7,26 @@ const previewTitle2 = document.getElementById("preview-title2");
 const previewDescription2 = document.getElementById("preview-description2");
 
 const images = [
-"/resources/img/3D%20blueprint%20arcade%20machine%20(2020).jpg",
-"/resources/img/3D%20render%20-%20%E2%80%9CNew%E2%80%9D%20Sprite%201960%20(2020).jpg",
-"/resources/img/Baby%20Yoda%20and%20Dart%20Wader%20in%20Simpson%20universe%20(2020).jpg",
-"/resources/img/Box%202gis%20(2023).jpg",
-"/resources/img/Calendar%202gis%20(2022).jpg",
-"/resources/img/Diploma%202GIS%20%20(2023).jpg",
-"/resources/img/Dipper%20and%20Mable%20in%20Simpson%20universe%20(2020).jpg",
-"/resources/img/Earon%20Fox%20-%20Voices%20(2022).jpg",
-"/resources/img/Harry%20Potter%20in%20Simpson%20universe%20(2020).jpg",
+"/resources/img/3D%20blueprint%20arcade%20machine%20(2020).webp",
+"/resources/img/3D%20render%20-%20%E2%80%9CNew%E2%80%9D%20Sprite%201960%20(2020).webp",
+"/resources/img/Baby%20Yoda%20and%20Dart%20Wader%20in%20Simpson%20universe%20(2020).webp",
+"/resources/img/Box%202gis%20(2023).webp",
+"/resources/img/Calendar%202gis%20(2022).webp",
+"/resources/img/Diploma%202GIS%20%20(2023).webp",
+"/resources/img/Dipper%20and%20Mable%20in%20Simpson%20universe%20(2020).webp",
+"/resources/img/Earon%20Fox%20-%20Voices%20(2022).webp",
+"/resources/img/Harry%20Potter%20in%20Simpson%20universe%20(2020).webp",
 "/resources/img/Hoco%20shop%20(2020).png",
-"/resources/img/Morty%20fail%20(2020).jpg",
-"/resources/img/Note%202gis%20(2023).jpg",
-"/resources/img/Nothing%20but%20Thieves%20in%20Simpson%20universe%20(2020).jpg",
-"/resources/img/Poster%20ibig%20(2020).jpg",
-"/resources/img/Rick%20and%20Morty%20in%20Simpson%20universe%20(2020).jpg",
-"/resources/img/Rick%20and%20Morty%20run%20(2020).jpg",
-"/resources/img/Sticker%202gis%20(2022).jpg",
-"/resources/img/Super%20homeless%20in%20Simpson%20universe%20(2020).jpg",
-"/resources/img/Watch%203d%202gis%20(2020).jpg",
-"/resources/img/night%20japan%20street%20(2020).jpg"
+"/resources/img/Morty%20fail%20(2020).webp",
+"/resources/img/Note%202gis%20(2023).webp",
+"/resources/img/Nothing%20but%20Thieves%20in%20Simpson%20universe%20(2020).webp",
+"/resources/img/Poster%20ibig%20(2020).webp",
+"/resources/img/Rick%20and%20Morty%20in%20Simpson%20universe%20(2020).webp",
+"/resources/img/Rick%20and%20Morty%20run%20(2020).webp",
+"/resources/img/Sticker%202gis%20(2022).webp",
+"/resources/img/Super%20homeless%20in%20Simpson%20universe%20(2020).webp",
+"/resources/img/Watch%203d%202gis%20(2020).webp",
+"/resources/img/night%20japan%20street%20(2020).webp"
 ];
 
 if (images.length === 0) {
