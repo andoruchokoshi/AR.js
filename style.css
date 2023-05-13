@@ -5,7 +5,6 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	margin: 0 auto;
-	background-color: #202020;
 	max-width: 2560px;
 }
 header {
@@ -16,11 +15,21 @@ header {
 	font-family: Poppins;
 	font-weight: 600;
 }
-.logo img {
+header .logo svg {
 	width: 5em;
 	height: 5em;
 }
-.menu {
+header .theme {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+header .theme svg {
+	width: 2.5em;
+	height: 2.5em;
+}
+header .menu {
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -85,8 +94,6 @@ header .button a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #2fffa4;
-	color: #303030;
 	padding: 10px 20px;
 	border-radius: 10px;
 	border: none;
@@ -95,10 +102,6 @@ header .button a {
 	font-weight: 600;
 	scroll-behavior: smooth;
 	text-decoration: none;
-}
-header .button a:hover {
-	background-color: #303030;
-	color: #2fffa4;
 }
 /*
 .lang-switcher {
@@ -177,7 +180,6 @@ main {
 main .content {
 	display: flex;
 	flex-direction: column;
-	background-color: #fff;
 	border-radius: 2.5em;
 	padding: 1em 2em 2em 2em;
 	gap: 20px;
@@ -197,8 +199,6 @@ main .c-button {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	background-color: #202020;
-	color: #2fffa4;
 	padding: 10px 20px;
 	border-radius: 2em;
 	border: none;
@@ -206,9 +206,6 @@ main .c-button {
 	font-family: Poppins;
 	font-weight: 300;
 	text-decoration: none;
-}
-main .c-button:hover {
-	background-color: #101010;
 }
 main .c-info .c-button img {
 	margin-left: 0.5em;
@@ -220,7 +217,6 @@ main .project {
 	gap: 1em;
 }
 main .c-preview {
-	background-color: #202020;
 	display: flex;
 	flex-direction: column;
 	justify-items: space-around;
@@ -233,14 +229,12 @@ main .c-preview .description {
 	margin: 1em 2em;
 }
 main .c-preview h2 {
-	color: #fff;
 	font-family: Poppins;
 	font-weight: 400;
 	font-size: 1em;
 	margin-top: 0.1em;
 }
 main .c-preview p {
-	color: #2fffa4;
 	font-family: Poppins;
 	font-weight: 200;
 	font-size: 0.8em;
@@ -255,13 +249,11 @@ main .c-preview img {
 }
 footer .connect {
 	margin: 0 10%;
-	background-color: #2fffa4;
 	border-radius: 2.5em;
 	padding: 2.8em;
 	text-align: center;
 }
 footer .connect h1 {
-	color: #303030;
 	font-size: 1.1em;
 	font-family: Poppins;
 	font-weight: 500;
@@ -269,7 +261,6 @@ footer .connect h1 {
 	margin-top: -15px;
 }
 footer .connect h2 {
-	color: #303030;
 	font-size: 1.1em;
 	font-family: Poppins;
 	font-weight: 500;
@@ -281,7 +272,6 @@ footer .connect mail {
 	justify-content: center;
 }
 footer .connect a.email {
-	color: #303030;
 	text-decoration: underline;
 	font-size: 1.1em;
 	font-family: Poppins;
@@ -307,18 +297,13 @@ footer .connect .button {
 	gap: 20px;
 }
 footer .connect .button a {
-	background-color: #303030;
 	display: flex;
 	padding: 15px 30px;
 	border-radius: 50px;
-	color: #2fffa4;
 	font-size: 1.1em;
 	font-family: Poppins;
 	text-decoration: none;
 	transition: backgroud-color 0.2s ease;
-}
-footer .connect .button a:hover {
-	background-color: #202020;
 }
 footer .connect .link {
 	display: flex;
@@ -348,18 +333,15 @@ footer .fbar p {
 	display: flex;
 	justify-content: center;
 	word-wrap: break-word;
-	color: #fff;
 	font-size: 1em;
 	font-family: Poppins;
 }
 footer .project-link a {
-	color: #fff;
 	text-decoration: underline;
 	font-size: 1em;
 	font-family: Poppins;
 }
 footer .back-to-top a {
-	color: #fff;
 	font-size: 1em;
 	font-family: Poppins;
 }
@@ -395,11 +377,12 @@ footer .back-to-top img {
 	}
 }
 
+/*Page 404*/
+
 main .notice-404 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #ff972f;
 	border-radius: 2.5em;
 	padding: 1em 2em 1em 2em;
 	gap: 10px;
@@ -412,12 +395,10 @@ main .notice-404 p {
 	flex-wrap: wrap;
 	font-family: Poppins;
 	font-size: 1.1em;
-	color: #fff;
 }
 main .notice-404 a {
 	font-family: Poppins;
 	font-size: 1em;
-	color: #fff;
 	text-decoration: underline;
 }
 main .notice-404 h1 {
@@ -427,7 +408,6 @@ main .notice-404 h1 {
 	font-family: Poppins;
 	font-weight: 500;
 	font-size: 2em;
-	color: #fff;
 }
 main .notice-404 img {
 	width: 15em;
@@ -437,7 +417,6 @@ footer .fbar-404 {
 	display: flex;
 	justify-content: space-between;
 	word-wrap: break-word;
-	color: #fff;
 	font-size: 1em;
 	font-family: Poppins;
 }
