@@ -92,3 +92,24 @@ function toggleTheme() {
     link.setAttribute("href", "light_theme.css");
     }
 }
+
+//// получаем элемент ссылки на тему
+//var themeLink = document.getElementById("theme-link");
+//
+//// получаем текущую тему из localStorage (если есть)
+//var currentTheme = localStorage.getItem("theme");
+//
+//// если текущая тема существует, устанавливаем ее
+//if (currentTheme) {
+//    themeLink.setAttribute("href", currentTheme + "_theme.css");
+//}
+//
+//function toggleTheme() {
+//    if (themeLink.getAttribute("href") === "light_theme.css") {
+//        themeLink.setAttribute("href", "dark_theme.css");
+//        localStorage.setItem("theme", "dark");
+//    } else {
+//        themeLink.setAttribute("href", "light_theme.css");
+//        localStorage.setItem("theme", "light");
+//    }
+//}

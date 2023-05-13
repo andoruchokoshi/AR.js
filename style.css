@@ -372,6 +372,9 @@ footer .back-to-top img {
 	}
 }
 @media screen and (max-width: 600px) {
+	header .menu .theme a {
+		display: none;
+	}
 	main .c-info {
 		flex-direction: column;
 	}
