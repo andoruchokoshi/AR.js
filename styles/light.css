@@ -1,0 +1,76 @@
+body {
+	transition: 0.5s;
+	--body-color: #fff;
+}
+header .logo svg path {
+	transition: 0.5s;
+	--logo-color: #202020;
+}
+header .button a {
+	transition: 0.2s;
+	--hb-color: #2fffa4;
+	--hb-text-color: #303030;
+}
+header .button a:hover {
+	--hb-color-hov: #303030;
+	--hb-text-color-hov: #2fffa4;
+}
+/*
+header .theme-button a {
+	color: #202020;
+}
+header .theme-button svg path {
+	fill: #202020;
+}
+*/
+main .content {
+	transition: 0.2s;
+    --mc-color: #e1e1e1;
+}
+main .c-button {
+	transition: 0.2s;
+	--mc-button-color: #565656;
+}
+main .c-button:hover {
+	--mc-button-c-hov: #404040;
+}
+footer .connect .button a {
+	transition: 0.2s;
+	--fcn-color: #303030;
+}
+footer .connect .button a:hover {
+	--fcn-color-hov: #202020;
+}
+footer .fbar p {
+	--ffp-text-color: #202020;
+}
+footer .project-link a {
+	--fpa-text-color: #202020;
+}
+footer .back-to-top a {
+	--fba-text-color: #202020;
+}
+
+/*Page 404*/
+
+main .notice-404 {
+	background-color: #ff972f;
+}
+main .notice-404 p {
+	color: #fff;
+}
+main .notice-404 a {
+	color: #fff;
+}
+main .notice-404 h1 {
+	color: #fff;
+}
+footer .fbar-404 {
+	--ff404-text-color: #202020;
+}
+
+/* Theme Switcher*/
+
+.dropdown-content {
+	--hm-dw-dtn: #202020;
+}

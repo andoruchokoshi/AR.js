@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap');
 
+:root {
+    color-scheme: light dark;
+}
+
 body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	margin: 0 auto;
+	background-color: var(--body-color);
 	max-width: 2560px;
 }
 header {
@@ -19,15 +24,8 @@ header .logo svg {
 	width: 5em;
 	height: 5em;
 }
-header .theme {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	padding: 10px;
-}
-header .theme svg {
-	width: 2.5em;
-	height: 2.5em;
+header .logo svg path {
+	fill: var(--logo-color);
 }
 header .menu {
 	display: flex;
@@ -94,6 +92,8 @@ header .button a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-color: var(--hb-color);
+	color: var(--hb-text-color);
 	padding: 10px 20px;
 	border-radius: 10px;
 	border: none;
@@ -102,6 +102,10 @@ header .button a {
 	font-weight: 600;
 	scroll-behavior: smooth;
 	text-decoration: none;
+}
+header .button a:hover {
+	background-color: var(--hb-color-hov);
+	color: var(--hb-text-color-hov);
 }
 /*
 .lang-switcher {
@@ -180,6 +184,7 @@ main {
 main .content {
 	display: flex;
 	flex-direction: column;
+	background-color: var(--mc-color);
 	border-radius: 2.5em;
 	padding: 1em 2em 2em 2em;
 	gap: 20px;
@@ -194,11 +199,16 @@ main .c-info {
 	font-size: 0.6em;
 	gap: 1em;
 }
+main .c-info h1 {
+	color: #202020;
+}
 main .c-button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
+	background-color: var(--mc-button-color);
+	color: #2fffa4;
 	padding: 10px 20px;
 	border-radius: 2em;
 	border: none;
@@ -206,6 +216,9 @@ main .c-button {
 	font-family: Poppins;
 	font-weight: 300;
 	text-decoration: none;
+}
+main .c-button:hover {
+	background-color: var(--mc-button-c-hov);
 }
 main .c-info .c-button img {
 	margin-left: 0.5em;
@@ -217,6 +230,7 @@ main .project {
 	gap: 1em;
 }
 main .c-preview {
+	background-color: #202020;
 	display: flex;
 	flex-direction: column;
 	justify-items: space-around;
@@ -229,12 +243,14 @@ main .c-preview .description {
 	margin: 1em 2em;
 }
 main .c-preview h2 {
+	color: #fff;
 	font-family: Poppins;
 	font-weight: 400;
 	font-size: 1em;
 	margin-top: 0.1em;
 }
 main .c-preview p {
+	color: #2fffa4;
 	font-family: Poppins;
 	font-weight: 200;
 	font-size: 0.8em;
@@ -249,19 +265,22 @@ main .c-preview img {
 }
 footer .connect {
 	margin: 0 10%;
+	background-color: #2fffa4;
 	border-radius: 2.5em;
 	padding: 2.8em;
 	text-align: center;
 }
 footer .connect h1 {
-	font-size: 1.1em;
+	color: #303030;
+	font-size: 1em;
 	font-family: Poppins;
 	font-weight: 500;
 	margin-bottom: 30px;
 	margin-top: -15px;
 }
 footer .connect h2 {
-	font-size: 1.1em;
+	color: #303030;
+	font-size: 1em;
 	font-family: Poppins;
 	font-weight: 500;
 	margin-bottom: 30px;
@@ -272,8 +291,9 @@ footer .connect mail {
 	justify-content: center;
 }
 footer .connect a.email {
+	color: #303030;
 	text-decoration: underline;
-	font-size: 1.1em;
+	font-size: 1em;
 	font-family: Poppins;
 	font-weight: 500;
 	word-wrap: break-word;
@@ -297,13 +317,17 @@ footer .connect .button {
 	gap: 20px;
 }
 footer .connect .button a {
+	background-color: var(--fcn-color);
 	display: flex;
 	padding: 15px 30px;
 	border-radius: 50px;
-	font-size: 1.1em;
+	color: #2fffa4;
+	font-size: 1em;
 	font-family: Poppins;
 	text-decoration: none;
-	transition: backgroud-color 0.2s ease;
+}
+footer .connect .button a:hover {
+	background-color: var(--fcn-color-hov);
 }
 footer .connect .link {
 	display: flex;
@@ -333,15 +357,18 @@ footer .fbar p {
 	display: flex;
 	justify-content: center;
 	word-wrap: break-word;
+	color: var(--ffp-text-color);
 	font-size: 1em;
 	font-family: Poppins;
 }
 footer .project-link a {
+	color: var(--fpa-text-color);
 	text-decoration: underline;
 	font-size: 1em;
 	font-family: Poppins;
 }
 footer .back-to-top a {
+	color: var(--fba-text-color);
 	font-size: 1em;
 	font-family: Poppins;
 }
@@ -372,20 +399,16 @@ footer .back-to-top img {
 	}
 }
 @media screen and (max-width: 600px) {
-	header .menu .theme a {
-		display: none;
-	}
 	main .c-info {
 		flex-direction: column;
 	}
 }
 
-/*Page 404*/
-
 main .notice-404 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: #ff972f;
 	border-radius: 2.5em;
 	padding: 1em 2em 1em 2em;
 	gap: 10px;
@@ -398,10 +421,12 @@ main .notice-404 p {
 	flex-wrap: wrap;
 	font-family: Poppins;
 	font-size: 1.1em;
+	color: #fff;
 }
 main .notice-404 a {
 	font-family: Poppins;
 	font-size: 1em;
+	color: #fff;
 	text-decoration: underline;
 }
 main .notice-404 h1 {
@@ -411,6 +436,7 @@ main .notice-404 h1 {
 	font-family: Poppins;
 	font-weight: 500;
 	font-size: 2em;
+	color: #fff;
 }
 main .notice-404 img {
 	width: 15em;
@@ -420,6 +446,7 @@ footer .fbar-404 {
 	display: flex;
 	justify-content: space-between;
 	word-wrap: break-word;
+	color: var(--ff404-text-color);
 	font-size: 1em;
 	font-family: Poppins;
 }
@@ -430,4 +457,64 @@ footer .fbar-404 {
 	flex-wrap: wrap;
 	padding: 1em;
 	text-decoration: none;
+}
+
+/*проба кнопки*/
+
+.dropdown {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+}
+.dropbtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #2fffa4;
+	color: #202020;
+	width: 45px;
+	height: 45px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.dropdown:hover .dropbtn {
+	background-color: #202020;
+}
+.dropbtn svg {
+	width: 35px;
+	height: 35px;
+}
+.dropbtn:hover svg path {
+	fill: #2fffa4;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	width: 45px;
+	height: 140px;
+	background-color: var(--hm-dw-dtn);
+	border-radius: 10px;
+}
+.dropdown-content .switcher {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.dropdown-content input {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	scale: 2;
+	opacity: 0;
+	margin: 20px;
+}
+.dropdown-content .switcher .switcher-icon {
+	width: 35px;
+	height: 35px;
+	margin-top: -45px;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
 }
