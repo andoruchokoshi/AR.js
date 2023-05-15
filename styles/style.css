@@ -515,6 +515,7 @@ footer .fbar-404 {
 	height: 35px;
 	margin-top: -45px;
 }
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content {
 	display: block;
 }
