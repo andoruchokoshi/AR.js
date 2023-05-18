@@ -2,6 +2,10 @@ body {
 	transition: 0.5s;
 	--body-color: #202020;
 }
+header {
+	transition: 0.5s;
+	--header-bg-color: #202020c0;
+}
 header .logo svg path {
 	transition: 0.5s;
 	--logo-color: #fff;
@@ -49,6 +53,9 @@ footer .project-link a {
 }
 footer .back-to-top a {
 	--fba-text-color: #fff;
+}
+footer .back-to-top svg g .st0 {
+	--fba-stroke-color: #fff;
 }
 
 /*Page 404*/
