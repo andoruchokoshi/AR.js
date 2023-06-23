@@ -37,7 +37,8 @@ const images = [
 "/resources/img/Snakes%20and%20Ladders%20game%20(2021).webp",
 "/resources/img/Stickers%202GIS%20(2022).webp",
 "/resources/img/Super%20BOMZH%20in%20Simpson%20universe%20(2020).webp",
-"/resources/img/Watch%202GIS%20(2020).webp"
+"/resources/img/Watch%202GIS%20(2020).webp",
+"/resources/img/Single%20cover%20-%20Earon%20Fox%20(2023).webp"
 ];
 
 if (images.length === 0) {

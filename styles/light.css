@@ -1,6 +1,6 @@
 body {
 	transition: 0.5s;
-	--body-color: #fff;
+	--body-color: var(--wh-color);
 }
 header {
 	transition: 0.5s;
@@ -8,7 +8,7 @@ header {
 }
 header .logo svg path {
 	transition: 0.5s;
-	--logo-color: #202020;
+	--logo-color: var(--dg-color);
 }
 header .button a {
 	transition: 0.2s;
@@ -43,19 +43,19 @@ footer .connect .button a {
 	--fcn-color: #303030;
 }
 footer .connect .button a:hover {
-	--fcn-color-hov: #202020;
+	--fcn-color-hov: var(--dg-color);
 }
 footer .fbar p {
-	--ffp-text-color: #202020;
+	--ffp-text-color: var(--dg-color);
 }
 footer .project-link a {
-	--fpa-text-color: #202020;
+	--fpa-text-color: var(--dg-color);
 }
 footer .back-to-top a {
-	--fba-text-color: #202020;
+	--fba-text-color: var(--dg-color);
 }
 footer .back-to-top svg g .st0 {
-	--fba-stroke-color: #202020;
+	--fba-stroke-color: var(--dg-color);
 }
 
 /*Page 404*/
@@ -64,20 +64,20 @@ main .notice-404 {
 	background-color: #ff972f;
 }
 main .notice-404 p {
-	color: #fff;
+	color: var(--wh-color);
 }
 main .notice-404 a {
-	color: #fff;
+	color: var(--wh-color);
 }
 main .notice-404 h1 {
-	color: #fff;
+	color: var(--wh-color);
 }
 footer .fbar-404 {
-	--ff404-text-color: #202020;
+	--ff404-text-color: var(--dg-color);
 }
 
 /* Theme Switcher*/
 
 .dropdown-content {
-	--hm-dw-dtn: #202020;
+	--hm-dw-dtn: var(--dg-color);
 }

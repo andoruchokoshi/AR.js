@@ -2,6 +2,10 @@
 
 :root {
     color-scheme: light dark;
+	--dg-color: #202020;
+	--lg-color: #e1e1e1;
+	--wh-color: #ffffff;
+	--accent-color: #2fffa4;
 }
 
 body {
