@@ -11,15 +11,13 @@ function checkCookie() {
 if (!checkCookie()) {
     var cookieCloseButton = document.getElementById('cookie_close');
     cookieCloseButton.addEventListener('click', function(event) {
-    event.preventDefault();
-    hideCookieNotice();
-    
-    document.cookie = 'cookieAccepted=true; path=/';
+        event.preventDefault();
+        hideCookieNotice();
+
+        var expirationDate = new Date();
+        expirationDate.setDate(expirationDate.getDate() + 7);
+        document.cookie = 'cookieAccepted=true; expires=' + expirationDate.toUTCString() + '; path=/';
     });
 } else {
     hideCookieNotice();
 }
-
-var expirationDate = new Date();
-expirationDate.setDate(expirationDate.getDate() + 1);
-document.cookie = 'cookieAccepted=true; expires=' + expirationDate.toUTCString() + '; path=/';
