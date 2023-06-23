@@ -12,12 +12,12 @@ header .logo svg path {
 }
 header .button a {
 	transition: 0.2s;
-	--hb-color: #2fffa4;
+	--hb-color: var(--accent-color);
 	--hb-text-color: #303030;
 }
 header .button a:hover {
 	--hb-color-hov: #303030;
-	--hb-text-color-hov: #2fffa4;
+	--hb-text-color-hov: var(--accent-color);
 }
 /*
 header .theme-button a {
@@ -61,7 +61,7 @@ footer .back-to-top svg g .st0 {
 /*Page 404*/
 
 main .notice-404 {
-	background-color: #ff972f;
+	background-color: var(--attention-color);
 }
 main .notice-404 p {
 	color: var(--wh-color);
