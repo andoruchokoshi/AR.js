@@ -455,7 +455,7 @@ main .notice img {
 .cookie_notice {
 	position: fixed;
 	left: 50%;
-	margin-left: -175px;
+	margin-left: -169px;
 	bottom: 1em;
 	display: flex;
 	justify-content: center;
