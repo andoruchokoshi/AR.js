@@ -449,3 +449,44 @@ main .notice img {
 	height: auto;
 }
 */
+
+/*cookies*/
+
+.cookie_notice {
+	position: fixed;
+	left: 50%;
+	margin-left: -175px;
+	bottom: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+	background-color: var(--wh-color);
+	border-radius: 4em;
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 0.8em;
+	color: var(--dg-color);
+	text-decoration: none;
+	gap: 1em;
+}
+
+.cookie_notice a {
+	color: var(--dg-color);
+}
+
+.cookie_notice img {
+	width: 20px;
+	margin-left: 1em;
+}
+
+.cookie_notice_button {
+	background-color: var(--dg-color);
+	border-radius: 2em;
+	padding: 1em;
+}
+
+.cookie_notice_button a {
+	color: var(--accent-color);
+	text-decoration: none;
+}
