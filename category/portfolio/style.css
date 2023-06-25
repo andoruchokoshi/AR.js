@@ -20,3 +20,10 @@ main .notice img {
 	width: 10em;
 	height: auto;
 }
+
+main .project .c-preview {
+	width: auto;
+}
+main .project img {
+	object-fit: fill;
+}

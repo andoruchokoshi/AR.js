@@ -13,3 +13,12 @@
 .main_text h3 {
     font-size: 2em;
 }
+
+@media screen and (max-width: 800px) {
+    footer .fbar-404 {
+        flex-direction: column;
+    }
+    footer .fbar-404 p {
+        text-align: center;
+    }
+}
