@@ -309,7 +309,7 @@ footer .back-to-top svg g .st0 {
 	}
 
 	footer .fbar p {
-		min-width: 500px;
+		width: 100vw;
 	}
 }
 
