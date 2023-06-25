@@ -27,6 +27,10 @@ header .theme-button svg path {
 	fill: #ffcd4e;
 }
 */
+.main_text {
+	color: var(--wh-color);
+}
+
 main .content {
 	transition: 0.2s;
     --mc-color: var(--wh-color);
