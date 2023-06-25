@@ -1,5 +1,7 @@
 .main_text {
     font-family: Poppins;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .main_text h1 {

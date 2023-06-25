@@ -30,6 +30,9 @@ header .theme-button svg path {
 .main_text {
 	color: var(--dg-color);
 }
+.main_text a {
+    color: var(--attention-color);
+}
 
 main .content {
 	transition: 0.2s;
