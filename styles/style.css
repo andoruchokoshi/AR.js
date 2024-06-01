@@ -92,8 +92,13 @@ main .content {
 main .annotation {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-family: Source Code Pro;
 	font-size: 0.6em;
+	gap: 1em;
+}
+main .annotation h1 {
 	color: #202020;
 }
 main .c-info {
