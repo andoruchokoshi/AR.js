@@ -20,10 +20,26 @@ main .notice img {
 	width: 10em;
 	height: auto;
 }
-
+main .portfolio_content {
+    display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border-radius: 2.5em;
+	padding: 1.5em 2em 2em 2em;
+	gap: 1.5em;
+	margin: 2em 0;
+}
+main .portfolio_content .project {
+	display: grid;
+	grid: auto / auto auto ;
+	/*grid-template-columns: auto auto auto;*/
+	/*grid-template-columns: repeat(auto-fit);*/
+	/*grid-auto-rows: repeat(auto-fit);*/
+	/*justify-content: space-between;*/
+}
 main .project .c-preview {
 	width: auto;
 }
 main .project img {
-	object-fit: fill;
+	object-fit: fit;
 }

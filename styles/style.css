@@ -89,6 +89,13 @@ main .content {
 	gap: 1.5em;
 	margin: 2em 0;
 }
+main .annotation {
+	display: flex;
+	justify-content: center;
+	font-family: Source Code Pro;
+	font-size: 0.6em;
+	color: #202020;
+}
 main .c-info {
 	display: flex;
 	justify-content: space-between;
